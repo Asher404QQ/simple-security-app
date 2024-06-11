@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: simple-ecommerce-security
+  datasource:
+    url: jdbc:postgresql://localhost:5435/spring_security
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: none
+  sql:
+    init:
+      mode: always
